@@ -15,6 +15,7 @@ namespace WindowsFormsApp1
         List<Book> books;
         public Form1()
         {
+            //initial
             InitializeComponent();
         }
 

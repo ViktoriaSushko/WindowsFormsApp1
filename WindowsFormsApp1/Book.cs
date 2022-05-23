@@ -8,10 +8,12 @@ namespace WindowsFormsApp1
 {
      public class Book
     {
+        //id
         public int Id { get; set; }
+        //title
 
         public string Title { get; set; }
-
+        //author
         public string Author { get; set; }
 
         public int YearOfPublish { get; set; }
