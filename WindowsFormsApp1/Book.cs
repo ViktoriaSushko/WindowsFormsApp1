@@ -17,9 +17,9 @@ namespace WindowsFormsApp1
         public string Author { get; set; }
 
         public int YearOfPublish { get; set; }
-
+        //price
         public double Price { get; set; }
-
+        //description
         public string Description => $"{Author}, {Title}";
 
         public override string ToString()
